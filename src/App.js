@@ -110,7 +110,7 @@ function App(props) {
           strict
           exact
           component={Home}
-          path="/home"
+          path="/"
           history={props.history}>
           </Route>
           <Route
