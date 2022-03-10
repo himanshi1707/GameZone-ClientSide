@@ -525,7 +525,7 @@ return(
       <AppBar position="static" style={{backgroundColor:'#f5f6fa',marginTop:65}}>
         <Toolbar variant="dense">
           <div style={{display:'flex',flexDirection:'row',marginLeft:125}}>
-              {menuCategory()}
+              {menuCategory}
               <Menu
                     id="simple-menu"
                     anchorEl={anchorMEl}
